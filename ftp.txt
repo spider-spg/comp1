@@ -1,0 +1,12 @@
+sudo apt install vsftpd
+sudo systemctl start vsftpd
+sudo nano /etc/vsftpd.conf
+sudo systemctl restart vsftpd
+sudo ufw allow ftp
+sudo useradd -m username
+sudo passwd username
+sudo ftp IP_adrr
+binary
+get office.java
+put office.java
+delete office.java
