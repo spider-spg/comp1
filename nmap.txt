@@ -1,0 +1,8 @@
+sudo apt-get install nmap
+nmap www.amazon.com (nmapping using domain)
+nmap IP_addr (nmapping using Ip address)
+nmap Ip_addr Ip_addr Ip_addr (Nmapping multiple Ip addresses at same time)
+nmap Ip_addr(192.168.3.*) (Nmapping aggressively for all devices on that connection)
+sudo nmap -sL Ip_addr (Get host name)
+nmap -iL file_name.txt (read file contents)
+sudo nmap -sA Ip_adrr  (To scan to detect firewall settings.  )
